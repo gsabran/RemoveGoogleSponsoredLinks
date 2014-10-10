@@ -1,0 +1,12 @@
+{
+  "name": "No sponsored links",
+  "description": "Remove sponsored links from google",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["http://www.google.com/*", "https://www.google.com/*"],
+      "css": ["no_ad.css"]
+    }
+  ],
+  "manifest_version": 2
+}
