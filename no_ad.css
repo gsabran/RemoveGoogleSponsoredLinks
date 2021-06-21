@@ -1,3 +1,12 @@
-#tvcap, #mbEnd, #rhs, #bottomads, .g.no-sep.tpo{
+#tvcap, #mbEnd, #rhs, #bottomads, .g.no-sep.tpo, .mts.mbs{
   display: none;
+}
+
+// lefigaro stuff
+.fig-article-body img[src*="gif-v5-2"] {
+    display: none !important;
+}
+.fig-article-body{
+  color: black !important;
+  text-shadow: none !important;
 }

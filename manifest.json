@@ -1,11 +1,15 @@
 {
   "name": "No sponsored links",
   "description": "Remove sponsored links from google",
-  "version": "0.1",
+  "version": "0.3",
   "content_scripts": [
     {
-      "matches": ["http://www.google.com/*", "https://www.google.com/*"],
+      "matches": ["<all_urls>"],
       "css": ["no_ad.css"]
+    },
+    {
+      "matches": ["*://*.facebook.com/*"],
+      "js": ["script.js"]
     }
   ],
   "manifest_version": 2
