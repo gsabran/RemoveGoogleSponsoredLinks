@@ -9,7 +9,7 @@
     },
     {
       "matches": ["*://*.facebook.com/*"],
-      "js": ["script.js"]
+      "js": ["remove-fb-marketplace-ads.js"]
     }
   ],
   "manifest_version": 2
